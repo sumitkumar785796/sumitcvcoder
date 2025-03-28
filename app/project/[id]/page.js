@@ -47,7 +47,7 @@ export default function SkillDetails() {
             {loading ? (
               <Skeleton height={300} width={400} />
             ) : (
-              <Image className="img-fluid rounded w-100" src={project.file} width={400} height={300} alt={project.title} />
+              <Image className="img-fluid rounded" src={project.file} width={400} height={400} alt={project.title} layout="responsive" />
             )}
           </div>
           <div className="col-lg-7">

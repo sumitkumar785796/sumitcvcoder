@@ -45,7 +45,7 @@ export default function Home() {
         <div className="container">
           <div className="row align-items-center">
             <div className="col-lg-5 px-5 pl-lg-0 pb-5 pb-lg-0">
-              <Image className="rounded-circle" src="/img/profile.png" width={400} height={400} alt="Profile Image" />
+              <Image className="rounded-circle" src="/img/profile.png" width={400} height={400} alt="Profile Image" layout="responsive" />
             </div>
             <div className="col-lg-7 text-center text-lg-left">
               <h3 className="text-white font-weight-normal mb-3">I&apos;m</h3>

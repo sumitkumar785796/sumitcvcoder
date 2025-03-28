@@ -15,9 +15,10 @@ const about = () => {
                         <div className="col-lg-5 pb-4 pb-lg-0">
                             <Image
                                 src="/img/profile.png"
-                                width={400}
-                                height={400}
+                                width={250}
+                                height={250}
                                 alt="Profile Image"
+                                layout="responsive"
                             />
                         </div>
                         <div className="col-lg-7">

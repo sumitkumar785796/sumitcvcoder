@@ -59,11 +59,12 @@ const Page = () => {
                                 <div className="col-lg-4 mb-5" key={index}>
                                     <div className="position-relative mb-4">
                                         <Image
-                                            className="img-fluid rounded w-100"
+                                            className="img-fluid rounded"
                                             src={item.file}
                                             width={200}
                                             height={200}
                                             alt={item.title}
+                                            layout="responsive"
                                         />
                                     </div>
                                     <h4 className="font-weight-bold m-0">{item.title}</h4>
