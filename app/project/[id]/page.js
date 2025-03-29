@@ -34,13 +34,13 @@ export default function SkillDetails() {
   if (error) return <p>Error: {error}</p>;
 
   return (
-    <div className="container-fluid py-5" id="about">
+    <div className="container-fluid py-5" id="project">
       <div className="container">
         <div className="position-relative d-flex align-items-center justify-content-center">
           <h1 className="display-1 text-uppercase text-white" style={{ WebkitTextStroke: "1px #dee2e6" }}>
-            ProjectDetails
+            Project
           </h1>
-          <h1 className="position-absolute text-uppercase text-primary">My Project Details</h1>
+          <h1 className="position-absolute text-uppercase text-primary">Project Details</h1>
         </div>
         <div className="row align-items-center">
           <div className="col-lg-5 pb-4 pb-lg-0">
